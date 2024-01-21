@@ -10,7 +10,7 @@ export const Header = () => {
     <header className="w-full flex items-center justify-between py-6 px-3 relative  shadow-white   ">
       <div className="logo  h-full">
         <img
-          src="../public/image/logo.png"
+          src="../image/logo.png"
           alt=""
           className="h-full"
           width="110px"
