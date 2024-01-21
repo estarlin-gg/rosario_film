@@ -7,9 +7,14 @@ export const Header = () => {
   const viewMenu = view ? "translate-x-0" : "translate-x-full";
   const colorMenuIcon = view ? "#000" : "#fff";
   return (
-    <header className="w-full flex items-center justify-between py-6 px-3 relative  shadow-white  ">
+    <header className="w-full flex items-center justify-between py-6 px-3 relative  shadow-white   ">
       <div className="logo  h-full">
-        <img src="../public/image/logo.png" alt="" className="h-full" width="150px"  />
+        <img
+          src="../public/image/logo.png"
+          alt=""
+          className="h-full"
+          width="110px"
+        />
       </div>
       <nav
         className={`nav-links transition-all ease-in-out flex flex-col items-center py-20 gap-6 fixed z-40 bg-white inset-0 md:relative md:translate-x-0 md:flex-row md:p-0  md:bg-inherit  ${viewMenu}`}
