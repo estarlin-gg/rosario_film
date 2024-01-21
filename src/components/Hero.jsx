@@ -1,5 +1,5 @@
 import { Button } from "./Button";
-import { Header } from "./header";
+import { Header } from "./Header";
 
 export const Hero = () => (
   <>

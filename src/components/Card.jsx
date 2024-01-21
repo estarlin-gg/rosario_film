@@ -17,7 +17,7 @@ export const Card = ({ icon, title }) => {
       <div className="btn flex justify-center p-2">
         <Button
           text="Contactar"
-          classes="bg-green-400 p-3 flex items-center gap-2"
+          classes=" bg-green-400 p-3 flex items-center gap-2"
           icon={<FaWhatsapp size={20} />}
         />
       </div>
