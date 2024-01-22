@@ -1,17 +1,16 @@
-
-import './App.css'
-import { Hero } from './components/Hero'
-import { Services } from './components/Services'
+import "./App.css";
+import { Gallery } from "./components/Gallery";
+import { Hero } from "./components/Hero";
+import { Services } from "./components/Services";
 
 function App() {
-
-
   return (
     <>
       <Hero />
       <Services />
+      <Gallery />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
