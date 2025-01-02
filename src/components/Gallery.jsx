@@ -1,22 +1,27 @@
-import { Box } from "./Containers";
+import Masonry, { ResponsiveMasonry } from "react-responsive-masonry";
 import { Image } from "./Image";
 
 export const Gallery = () => {
   return (
     <>
-      <h2 className="text-4xl font-semibold text-center">Galeria</h2>
-      <section className="w-full grid h-fit p-2 grid-cols-2">
-        <Box classes="flex flex-col gap-4  py-12">
-          <Image surce={"/image/foto2.jpg"} />
-          <Image surce={"/image/foto-3.jpg"} />
-          <Image surce={"/image/vertical1.jpg"} />
-        </Box>
-        <Box classes="flex flex-col gap-4 p-4">
-          <Image surce={"/image/vertical1.jpg"} />
+      <section className="p-4 space-y-6">
+        <h2 className="text-4xl font-semibold text-center ">Galeria</h2>
 
-          <Image surce={"/image/foto-3.jpg"} />
-          <Image surce={"/image/foto2.jpg"} />
-        </Box>
+        <ResponsiveMasonry
+          columnsCountBreakPoints={{ 320: 2, 768: 3, 1024: 4 }}
+        >
+          <Masonry gutter="15px">
+            <Image surce={"/image/foto2.jpg"} />
+            <Image surce={"/image/foto3.jpg"} />
+            <Image surce={"/image/foto4.jpg"} />
+            <Image surce={"/image/foto5.jpg"} />
+            <Image surce={"/image/foto6.jpg"} />
+            <Image surce={"/image/foto6.jpg"} />
+            <Image surce={"/image/foto2.jpg"} />
+            <Image surce={"/image/foto2.jpg"} />
+            <Image surce={"/image/foto6.jpg"} />
+          </Masonry>
+        </ResponsiveMasonry>
       </section>
     </>
   );

@@ -19,7 +19,9 @@ export const Hero = () => (
             mercado. Tu historia merece ser contada con imágenes que brillan por
             su nitidez y detalle.
           </p>
-          <Button classes="p-4 bg-red-600" text="Contactar" />
+          <a href="https://wa.link/rpqujk" target="_blank" rel="noreferrer">
+            <Button classes="p-4 bg-red-600" text="Contactar" />
+          </a>
         </div>
       </main>
     </div>

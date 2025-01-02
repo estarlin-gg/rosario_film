@@ -1,8 +1,15 @@
-# React + Vite
+# Rosario Film
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Rosario Film** es una aplicación web sencilla desarrollada con **React**, que permite a los usuarios conocer los servicios que ofrece la empresa en fotografía, video y edición. La aplicación también incluye un enlace directo a WhatsApp para facilitar el contacto con nosotros. 
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Ver Servicios**: Presentación de los servicios ofrecidos por Rosario Film: Fotografía, Video y Edición.
+- **Contacto Rápido**: Facilita el contacto con la empresa a través de un enlace directo a WhatsApp.
+
+## Tecnologías Utilizadas
+
+- **React**: Biblioteca para construir la interfaz de usuario de la aplicación.
+- **tailwind css**: Framework CSS para hacer la interfaz responsiva y fácil de usar.
+- **WhatsApp API**: Enlace directo a WhatsApp para contactar con la empresa de forma rápida.
+
